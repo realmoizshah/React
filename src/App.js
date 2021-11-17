@@ -52,7 +52,7 @@ function App() {
               <About/>
             </Route>
             <Route exact path="/"> */}
-              <Form showAlert ={showAlert} heading="Enter Text Below" mode={mode}/>
+              <Form showAlert ={showAlert} heading="Enter Text Below" mode={mode} toggleMode = {toggleMode}/>
             {/* </Route>
           </Switch> */}
         </div>
